@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body bgcolor="Grey">
+            <h1>
+Feedback Form
+            </h1>
+            <form method="POST">
+                <input type="text" placeholder="Name*"><br><br>
+                <input type="text" placeholder="Mobile No:*"><br><br>
+                <textarea placeholder="Your Feedback" ></textarea><br><br>
+                <input type="submit" value="Submit">
+            </form>
+            <hr>
+            
+    
+            <h2>
+                Order Delivery form
+            </h2><b>Product:</b><br><br><form method="POST">
+            <select name="product" id="product">
+                <option value="">Select the Product</option>
+                <option value="product">bag</option>
+                <option value="product">chappal</option>
+                <option value="product">Shoe</option>
+            </select><br><br>
+                <input type="text" placeholder="Name*"><br><br>
+                <input type="text" placeholder="Mobile No:*"><br><br>
+                <input type="email" placeholder="Email:*"><br><br>
+                <b>Delivery Address:</b><br><br>
+                <input type="text" placeholder="Address line 1*"><br><br>
+                <input type="text" placeholder="Address line 2*"><br><br>
+                <input type="text" placeholder="landmark*"><br><br>
+                <input type="text" placeholder="City*"><br><br>
+                <input type="number" placeholder="Pincode*"><br><br>
+                <input type="text" placeholder="State*"><br><br>
+                <input type="text" placeholder="Country*"><br><br>
+                <b>Payment:</b><br><br>
+                <select name="payment" id="payment">
+                    <option value="">Payment method</option>
+                    <option value="product">credit card</option>
+                    <option value="product">Debit card</option>
+                    <option value="product">Net banking</option>
+                
+                </select><br><br>
+                <button type="submit">Place Order</button>
+           
+           
+        </form>
+        <hr>
+        <h2>Donation Form:</h2><br><br>
+        <form method="POST">
+            <input type="text" placeholder="Name*"><br><br>
+                <input type="text" placeholder="Mobile No:*"><br><br>
+                <input type="email" placeholder="Email:*"><br><br>
+                <b>Type of Donation</b><br><br>
+                <input type="radio" name="Donation">Love Offering<br><br>
+                <input type="radio" name="Donation">Building Expansion<br><br>
+                <input type="radio" name="Donation">One Time Donation<br><br>
+              
+                <textarea placeholder="Comments*"></textarea><br><br><b>Amount*</b><br><br>
+                <input type="number" placeholder="Amount"><br><br>
+                <b>Payment method:</b><br><br>
+                <select name="payment" id="payment">
+                    <option value="">Payment method</option>
+                    <option value="donation">credit card</option>
+                    <option value="donation">Debit card</option>
+                    <option value="donation">Net banking</option>
+                
+                </select><br><br>
+                <button type="submit">Submit</button><hr>
+        </form>
+        <h2>subscription form</h2>
+        <form>
+            Enter mail id<br><input type="email" name="eOpen" placeholder="mail id"><br><br>
+            Enter password<br><input type="password" name="password" placeholder="password" maxlength="8"><br><br>
+            <input type="submit" value="subscribe"><hr>
+        </form>
+        <h2 >Complaint Form</h2>
+        
+        <form method="POST" enctype="multipart/form-data">
+            <input type="text" placeholder="customer name" required><br><br>
+            <input type="text" placeholder="customer mobile number" required><br><br>
+            date:-<input type="date" required><br><br>
+            <input type="text" placeholder="address"><br><br>
+            <textarea cols="25" rows="5" placeholder="complaint details"></textarea><br><br>
+            <button type="submit">send</button><br><br><hr>
+        </form>
+        <form  method="post"><h2>Admission form</h2><br><br>
+            1.Name of student* :<input type="text" required><br> <br>
+            2.date of birth*: <input type="date" required> <br> <br>
+            3.gender*: <input type="radio" name="std-gender" value="male">male
+             <input type="radio" name="std-gender" value="female">female
+             <input type="radio" name="std-gender" value="transgender">transgender <br><br>
+            4.father's name*: <input type="text" required> <br> <br>
+            5.mother's name*: <input type="text" required> <br> <br>
+            6.occupation*: father <input type="text" required> mother <input type="text" required> <br> <br>
+            7.address* :- residential <input type="text" required> office <input type="text"> <br><br>
+            8.phone No* :- residential <input type="number" required> office <input type="number"><br><br>
+            9.name and address of guardian: <br>
+            <textarea></textarea> <br><br>
+            10.nationality*: <input type="text" required><br><br>
+            11.class in which admission sought*: <input type="text" required><br><br>
+            12.admitted to class*: <input type="text" required><br><br>
+            <input type="submit">
+        </form>
+        <hr><h2>Subscription</h2>
+        <p>Create your own custom form to collect subscribers</p>
+        <form>
+            <input type="email" placeholder="Email" cols="30"><br><br>
+            <select name="Songs" id="Songs">
+                <option value="">Drop down list</option>
+                <option value="songs">Tamil</option>
+                <option value="songs">Malayalam</option>
+                <option value="songs">Hindi</option>
+            
+            </select><br><br>
+            <input type="radio" name="gender">male
+            <input type="radio" name="gender">female<br><br>
+            <input type="checkbox"> I want to receive notifications<br><br>
+            <button type="submit">Subscribe</button>
+        </body>
+    </head>
+</html>
